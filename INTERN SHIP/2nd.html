@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Lists - All Types and Variations</title>
+</head>
+<body>
+    <h2>Ordered Lists</h2>
+    <ol>
+        <li>Default Ordered List</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ol type="A">
+        <li>Uppercase Letters</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ol type="a">
+        <li>Lowercase Letters</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ol type="I">
+        <li>Roman</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ol type="i">
+        <li>Lowercase Roman</li>
+        <li>Second Item</li>
+    </ol>
+
+    <ol start="5">
+        <li>Start from 5</li>
+        <li>Next Item</li>
+    </ol>
+
+    <h2>Unordered Lists</h2>
+    <ul>
+        <li>Default Unordered List</li>
+        <li>Second Item</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Circle Bullet</li>
+        <li>Second Item</li>
+    </ul>
+
+    <ul type="square">
+        <li>Square Bullet</li>
+        <li>Second Item</li>
+    </ul>
+
+    <ul type="disc">
+        <li>Disc Bullet</li>
+        <li>Second Item</li>
+    </ul>
+
+    <h2>Nested Lists</h2>
+    <ol>
+        <li>First Item
+            <ul>
+                <li>Nested Unordered</li>
+                <li>Another Nested</li>
+            </ul>
+        </li>
+        <li>Second Item</li>
+    </ol>
+
+    <ul>
+        <li>First Item
+            <ol>
+                <li>Nested Ordered</li>
+                <li>Another Nested</li>
+            </ol>
+        </li>
+        <li>Second Item</li>
+    </ul>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dd>HTML is the standard markup language for creating web pages and web applications. It structures the content and elements on a web page using tags.</dd>
+        <dd>HTML provides the basic building blocks for all websites, including headings, paragraphs, links, images, lists, tables, forms, and more.</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dd>CSS is used to control the style and layout of web pages, including colors, fonts, spacing, and positioning of elements.</dd>
+        <dd>CSS allows you to make web pages visually attractive and responsive, and can be used to create animations and transitions.</dd>
+    </dl>
+
+    <h2>Extra Ordered List (start=10)</h2>
+    <ol start="10">
+        <li>Tenth Item</li>
+        <li>Eleventh Item</li>
+        <li>Twelfth Item</li>
+    </ol>
+    <h2>Extra Unordered List (start attribute has no effect, for demonstration)</h2>
+    <ul start="5">
+        <li>First Item (start attribute ignored)</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ul>
+</body>
+</html>
